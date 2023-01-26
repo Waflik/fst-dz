@@ -1,6 +1,6 @@
 from random import randint
 wr_file = open("Readme.txt", "w+")
-wr_file.write("Привет, файл!\n")
+wr_file.write("Этот текст записан!\n")
 num = randint(1, 100)
 wr_file.write(f'Рандомное число: {num}')
 wr_file.close()
